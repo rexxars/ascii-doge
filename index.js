@@ -20,5 +20,11 @@ var lines = [
   '         ▒▒▒▒▒▒▒▒▒▒▀▀',
 ]
 
-exports.toString = () => lines.join('\n')
-exports.toArray = () => lines
+exports.toString = function() {
+  return lines.join('\n')
+}
+
+exports.toArray = function() {
+  return lines
+}
+
