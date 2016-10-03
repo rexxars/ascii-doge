@@ -1,0 +1,23 @@
+{
+  "name": "ascii-doge",
+  "version": "1.0.0",
+  "description": "Beautiful ascii doge, as string or array",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/ascii-doge.git"
+  },
+  "keywords": [
+    "doge",
+    "ascii"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/ascii-doge/issues"
+  },
+  "homepage": "https://github.com/rexxars/ascii-doge#readme"
+}
