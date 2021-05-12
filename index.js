@@ -28,3 +28,14 @@ exports.toArray = function() {
   return lines
 }
 
+exports.toColoredString = function() {
+  return lines
+    .join("\n")
+    .replace(/░/g, "\x1b[33m░\x1b[0m")
+    .replace(/▒/g, "\x1b[33m▒\x1b[0m")
+    .replace(/▄/g, "\x1b[30m▄\x1b[0m")
+    .replace(/█/g, "\x1b[30m█\x1b[0m")
+    .replace(/▐/g, "\x1b[30m▐\x1b[0m")
+    .replace(/▌/g, "\x1b[30m▌\x1b[0m")
+    .replace(/▀/g, "\x1b[30m▀\x1b[0m");
+}
