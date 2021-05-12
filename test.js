@@ -6,4 +6,7 @@ console.log('toString() === toArray().join("\\n")')
 
 assert(doge.toString().indexOf('▐▒▒▐▀▐▀▒░▄▄▒▄▒▒▒▒▒▒░▒░▒░▒▒▒▒▌') > -1)
 console.log(doge.toString())
+
+console.log("Colored Doge!")
+console.log(doge.toColoredString())
 console.log(':thumbsup:')
